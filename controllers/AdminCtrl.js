@@ -2,6 +2,7 @@ const websiteModel = require("../models/websiteModel");
 const brandModel = require("../models/brandModel");
 const creatorModel = require("../models/creatorModel");
 const brandsxCreatorsModel = require("../models/brandsxCreatorsModel");
+const fs = require("fs");
 
 // BRANDS
 const addBrandController = async (req, res) => {
@@ -58,7 +59,11 @@ const deleteBrandController = async (req, res) => {
 const addCreatorController = async (req, res) => {
   try {
     const { id, name, type } = req.body;
-    if (id) {
+
+    const actualId = id === "null" ? null : id;
+
+    if (actualId) {
+      console.log("hello");
       const existingCretor = await creatorModel.findOne({ _id: id });
       if (!existingCretor) {
         return res
@@ -158,7 +163,10 @@ const deleteCreatorController = async (req, res) => {
 const addBrandsXCreatorController = async (req, res) => {
   try {
     const { id, creatorName, reach, link } = req.body;
-    if (id) {
+
+    const actualId = id === "null" ? null : id;
+
+    if (actualId) {
       const existing = await brandsxCreatorsModel.findOne({ _id: id });
       if (!existing) {
         return res.status(201).send({
