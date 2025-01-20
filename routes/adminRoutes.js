@@ -64,7 +64,7 @@ router.post(
   addBrandController
 );
 router.get("/getbrands", getAllBrandContoller);
-router.post("/deletebrand", deleteBrandController);
+router.post("/deletebrand", adminAuthMiddleware, deleteBrandController);
 // CREATORS
 // CREATORS
 // CREATORS
@@ -75,7 +75,7 @@ router.post(
   addCreatorController
 );
 router.get("/getcreators", getAllCreatorContoller);
-router.post("/deletecreator", deleteCreatorController);
+router.post("/deletecreator", adminAuthMiddleware, deleteCreatorController);
 // BRAND X CREATORS
 // BRAND X CREATORS
 // BRAND X CREATORS
@@ -86,7 +86,11 @@ router.post(
   addBrandsXCreatorController
 );
 router.get("/getbrandsxcreators", getAllBrandsXCreatorsContoller);
-router.post("/deletebrandsxcreators", deleteBrandsXCreatorsController);
+router.post(
+  "/deletebrandsxcreators",
+  adminAuthMiddleware,
+  deleteBrandsXCreatorsController
+);
 // website
 router.get("/dashboard", adminAuthMiddleware, dashboardController);
 router.get("/get-website", getWebsiteContoller);
