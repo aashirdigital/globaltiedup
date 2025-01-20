@@ -1,10 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.cadd11bf.css",
-    "main.js": "/static/js/main.176b3e2e.js",
+    "main.js": "/static/js/main.e3cd2a90.js",
+    "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.1b8ffcc9.chunk.js",
+    "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.b982f05c.chunk.js",
+    "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.d25d69a4.chunk.js",
+    "reactPlayerMux.js": "/static/js/reactPlayerMux.2aa8c561.chunk.js",
+    "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.a0869d01.chunk.js",
+    "reactPlayerStreamable.js": "/static/js/reactPlayerStreamable.4d6d9a5d.chunk.js",
+    "reactPlayerWistia.js": "/static/js/reactPlayerWistia.fe695ecb.chunk.js",
+    "reactPlayerTwitch.js": "/static/js/reactPlayerTwitch.128123fa.chunk.js",
+    "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.14d24ce8.chunk.js",
+    "reactPlayerMixcloud.js": "/static/js/reactPlayerMixcloud.f4ce5182.chunk.js",
+    "reactPlayerVidyard.js": "/static/js/reactPlayerVidyard.b45dd7a5.chunk.js",
+    "reactPlayerKaltura.js": "/static/js/reactPlayerKaltura.43ea99c6.chunk.js",
+    "reactPlayerFilePlayer.js": "/static/js/reactPlayerFilePlayer.5bdb6510.chunk.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.19c05746.chunk.js",
+    "static/media/v12.mp4": "/static/media/v12.dd168fd5cb88cfd51628.mp4",
+    "static/media/v2.mp4": "/static/media/v2.3b4ce612d7bffca44e9d.mp4",
+    "static/media/v15.mp4": "/static/media/v15.3c9b3ae044de7fcd1282.mp4",
+    "static/media/v14.mp4": "/static/media/v14.92a848fcc9f05f22ed66.mp4",
+    "static/media/v17.mp4": "/static/media/v17.995117b67eb9d1854ae4.mp4",
+    "static/media/v13.mp4": "/static/media/v13.e9bc57f0a18c210e0abe.mp4",
+    "static/media/v10.mp4": "/static/media/v10.fb3443c920a680852f7f.mp4",
     "static/media/about.png": "/static/media/about.db0038ffa433e84790e9.png",
     "static/media/shivraj.jpg": "/static/media/shivraj.9acbfba72d148a633768.jpg",
     "static/media/bgimage.png": "/static/media/bgimage.cff0c425e0ae29aeafe2.png",
+    "static/media/v16.mp4": "/static/media/v16.fa252b6483e1830ee5d8.mp4",
     "static/media/nirmal.jpeg": "/static/media/nirmal.1e645e39e52a363b8d85.jpeg",
     "static/media/logo.png": "/static/media/logo.cce05e98ae3d9d269ec6.png",
     "static/media/instagram.png": "/static/media/instagram.79535458a8a6d88f81d4.png",
@@ -19,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.cadd11bf.css",
-    "static/js/main.176b3e2e.js"
+    "static/js/main.e3cd2a90.js"
   ]
 }
